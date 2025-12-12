@@ -1,10 +1,25 @@
-name: mkdocs
-channels:
-  - conda-forge
-dependencies:
-  - python=3.12
-  - pip
-  - pip:
-      - mkdocs-material
-      - mkdocs-awesome-pages-plugin
-      - mkdocs-exclude
+site_name: Project Docs
+site_url: https://github.com/INTERA-Inc/workflow-docs.git
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.sections      # group pages by section
+    - navigation.expand        # expand all sections in sidebar
+    - navigation.top           # “back to top” button
+    - toc.follow               # highlight current section as you scroll
+    - toc.integrate            # merge page TOC into left nav on small screens
+
+nav:
+  - Home: index.md
+  - General Project Setup:
+      - project.md
+  - Python Env & VSCode:
+        - Python: python.md
+        - VSCode: vscode.md
+  - Github:
+      - Github Setup: github.md
+      - Github Workflow: github.md
+extra_css:
+- _styles/style.css

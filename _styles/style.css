@@ -1,0 +1,130 @@
+/* MAIN CONTENT AREA ONLY (MkDocs Material) */
+
+/* Slightly reduce the main content width and padding */
+
+/* Make the main content area wider */
+
+:root {
+  /* default is ~60–70rem; bump it up */
+  --md-typeset-content-max-width: 80rem;  /* ~1280px */
+}
+
+.md-main__inner {
+  margin: 0 auto;
+  max-width: 80%;          /* overall page width */
+}
+
+.md-content {
+  max-width: 1200px;       
+  margin: 0 auto;
+
+.md-content {
+  padding: 0.6rem 1.2rem 1.4rem;
+}
+
+/* Base text in the main content */
+.md-typeset {
+  font-size: 0.70rem;         /* smaller body text */
+  line-height: 1.35;          /* tighter line spacing */
+}
+
+/* Paragraph spacing */
+.md-typeset p {
+  margin-top: 0.2rem;
+  margin-bottom: 0.4rem;
+  font-size: 0.7rem;
+}
+
+/* Headings: smaller + tighter vertical gaps */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  font-weight: 500;
+  margin-top: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+.md-typeset h1 { font-size: 0.8rem; }
+.md-typeset h2 { font-size: 0.8rem; }
+.md-typeset h3 { font-size: 0.8rem; }
+.md-typeset h4 { font-size: 0.7rem;  }
+.md-typeset h5 { font-size: 0.6rem; }
+.md-typeset h6 { font-size: 0.5rem;  }
+
+/* Lists: reduce indent and spacing */
+.md-typeset ul,
+.md-typeset ol {
+  margin-top: 0.15rem;
+  margin-bottom: 0.3rem;
+  padding-left: 1.1rem;
+}
+
+.md-typeset li {
+  margin-top: 0.05rem;
+  margin-bottom: 0.05rem;
+}
+
+.md-typeset li ul,
+.md-typeset li ol {
+  margin-top: 0.05rem;
+  margin-bottom: 0.05rem;
+  padding-left: 0.9rem;
+}
+
+/* Tables: smaller text + tighter cells */
+.md-typeset table {
+  font-size: 0.7rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.md-typeset table th,
+.md-typeset table td {
+  padding: 0.25rem 0.4rem;
+}
+
+/* Code blocks + inline code */
+.md-typeset code {
+  font-size: 0.7em;
+  padding: 0.05em 0.25em;
+}
+
+.md-typeset pre {
+  margin-top: 0.3rem;
+  margin-bottom: 0.4rem;
+  padding: 0.45rem 0.6rem;
+}
+
+.md-typeset pre code {
+  font-size: 0.7rem;
+}
+
+/* Admonitions (!!! note, warning, etc.) */
+.md-typeset .admonition,
+.md-typeset details {
+  font-size: 0.82rem;
+  margin: 0.35rem 0;
+  padding: 0.35rem 0.55rem;
+}
+
+/* Horizontal rules */
+.md-typeset hr {
+  margin: 0.6rem 0;
+}
+
+/* Figures / images */
+.md-typeset figure {
+  margin: 0.5rem 0;
+}
+
+.md-typeset img {
+  margin: 0.2rem 0;
+}
+
+/* Reduce space under page title block */
+.md-content__headline {
+  margin-bottom: 0.5rem;
+}
