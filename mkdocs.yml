@@ -1,0 +1,10 @@
+name: mkdocs
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - mkdocs-material
+      - mkdocs-awesome-pages-plugin
+      - mkdocs-exclude
