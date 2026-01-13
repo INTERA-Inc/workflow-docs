@@ -8,13 +8,16 @@
 
 -   First copy your remote repo link
 
-![img](../img/gh_adress.png "Github repo address")  
+![Github repo address](img/gh_adress.png){ width=400 }
 
 -   In VSCode initialise local repo and connect to remote
-
-    git init
-    git add .
-    git commit -m "Initial project structure"
-    git branch -M main
-    git remote add origin https://github.com/.. (your link)
-    git push -u origin main
+<pre>
+git init
+git add .
+git commit -m "Initial project structure"
+git branch -M main
+git remote add origin https://github.com/.. (your link)
+git push -u origin main
+</code>
+!!! note "Tip"
+    You can put extra information in callouts.
