@@ -3,6 +3,7 @@ site_name: Project Docs
 
 theme:
   name: readthedocs
+  highlightjs: true
   navigation_depth: 3
   color_mode: dark
 

@@ -71,13 +71,31 @@ Nested blockquote:
 >
 > > Inner quote
 
----
+
+Ingredients:
+- VSCode
+- Github
+- python, jupyter and flopy
+
+!!! note "Tip"
+    Useful information here.
+
+??? note "Details"
+    This text is initially folded.
+
 
 ## Code blocks
 
-### Fenced code blocks (recommended)
+```python
+print("hello")
+```
 
 ```bash
-# Create and activate environment
-mamba env create -f env/environment.yml
-mamba activate gw-model-project
+echo "hello"
+```
+
+```md
+Use `foo()` to process values.
+```
+
+This is ==important text== you want to highlight.
