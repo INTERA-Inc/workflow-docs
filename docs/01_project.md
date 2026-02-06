@@ -1,3 +1,4 @@
+title: 1. Project Setup
 ## General folder structure suggestion
 
 ``` { .txt }

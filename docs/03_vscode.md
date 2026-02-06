@@ -1,12 +1,12 @@
-# VSCode
+title: 3. VSCode
 
 ## Workflow
 - this is how its done
 - yes, step by step
 
-## Cheat Sheet
+### Cheat Sheet
 
-### Navigation
+#### Navigation
 
 | Keys              | Description                       |
 | ----------------- | --------------------------------- |
@@ -25,7 +25,7 @@
 | Ctrl+Shift+G      | Focus Source Control              |
 | Ctrl+Shift+D      | Focus Run & Debug                 |
 
-### Editing
+#### Editing
 
 | Keys                          | Description                        |
 | ----------------------------- | ---------------------------------- |
@@ -42,7 +42,7 @@
 | Ctrl+.                        | Quick fix / code action            |
 | F2                            | Rename symbol                      |
 
-### Multi-cursor
+#### Multi-cursor
 
 | Keys                        | Description                         |
 | --------------------------- | ----------------------------------- |
@@ -50,5 +50,3 @@
 | Ctrl+Alt+Up / Ctrl+Alt+Down | Add cursor above/below              |
 | Ctrl+D                      | Add next occurrence of selection    |
 | Ctrl+Shift+L                | Select all occurrences of selection |
-
-
